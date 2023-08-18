@@ -7,27 +7,27 @@ import "slick-carousel/slick/slick-theme.css";
 
 const data=[{
     id:1,
-    icon:"/Homepage/LTBLOGslider(1388 P 787 px).png",
+    icon:"/Homepage/LTBLOGslider.png",
     title:"How to declutter and organise your home",
     name:'Ralph Edwards',
     date:'April 23, 2023'
 },
 {
     id:2,
-    icon:"/Homepage/LTBLOGslider(1388 P 787 px).png",
+    icon:"/Homepage/LTBLOGslider.png",
     title:"Revving up your vehicle's performance",
     name:'Mike Edwards',
     date:'April 23, 2023'
 },
 {
     id:3,
-    icon:"/Homepage/LTBLOGslider(1388 P 787 px).png",
+    icon:"/Homepage/LTBLOGslider.png",
     title:" Comprehensive pet care and wellness tips",
     name:'Mathew. karen',
     date:'April 23, 2023'
 },{
   id:4,
-  icon:"/Homepage/LTBLOGslider(1388 P 787 px).png",
+  icon:"/Homepage/LTBLOGslider.png",
   title:" Comprehensive pet care and wellness tips",
   name:'Mathew. karen',
   date:'April 23, 2023'
@@ -86,6 +86,8 @@ export const SecondCardBlog = () => {
       alt={name}
       width={400} 
       height={200}
+      blurDataURL={icon}
+      placeholder="blur" // Optional blur-up while loading
     /></div>
           <div className='row mt-3 mx-1' style={{borderBottom:"1px solid rgb(217 217 217)"}}>
             <div className='col d-flex mb-2'>

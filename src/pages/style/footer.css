@@ -1,0 +1,115 @@
+.footer-mainbox{
+    background-image: url(../../../public/assets/footer\ bg@2x.svg);
+}
+.footer-container{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 2rem 2rem 0rem;
+}
+.footer-container:first-child{
+    width: 100%;
+}
+.footer-subpart{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.download-title{
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+.apple-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.social-media-container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.social-media-container li{
+    list-style: none;
+    height:1rem;
+    cursor: pointer;
+}
+h4{
+    color: #fff !important;
+    margin-top: 1rem !important;
+    font-size: 1.2rem !important;
+    font-family: 'Poppins';
+}
+.footer-subpart-ul{
+    color: white;
+    margin-top: 1rem;
+}
+.footer-subpart-ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    margin: 0rem 0rem;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+.copyrightpara{
+    padding: 1rem 8rem 2rem;
+    color: White;
+   justify-content: space-around;
+}
+
+@media  screen and (max-width:858px) {
+    .footer-container{
+        padding: 1rem;
+    }
+    .footer-subpart{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .copyrightpara{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:480px) and (min-width:320px){
+    .download-title {
+        margin-top: 3.5rem;
+    }
+    .copyrightpara {
+        padding: 1rem 0rem 2rem;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        margin: 1.5rem 0rem;
+    }
+    .footermobileicon{
+        margin: 1.5rem 0rem;
+        color: goldenrod;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .footerdropdownmenu {
+        position: relative;
+        display: inline-block;
+      }
+      .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 160px;
+        z-index: 1;
+        top:10%;
+      }
+      .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+    }
+      .footerdropdownmenu:hover .footer-subpart-ul {display: block;}
+      
+}

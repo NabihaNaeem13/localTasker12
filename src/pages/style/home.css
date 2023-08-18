@@ -1,0 +1,448 @@
+.main-containerbox{
+ padding-top: 8rem;
+}
+.firstbox-container{
+  background-image: url(/Homepage/LTHOMEslider.png);
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height:auto;
+  background-repeat: no-repeat;
+}
+.firstbox-container-sub{
+    width: 100%;
+    height:auto;
+    background-color: rgba(0, 0, 0,0.6);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+}
+.firstbox-container-subtitle{
+    padding: 13rem 24rem 2rem;
+    font-weight: 600;
+}
+.blogfirstbox-container-subtitle{
+    padding: 8rem 3rem 2rem;
+}
+.firstbox-container-subpara{
+    padding: 0rem 3rem 2rem;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.firstbox-container-subinputbox{
+    padding: 0rem 3rem 12rem;
+    justify-content: center;
+ align-items: center;
+    display: flex;
+}
+.blogfirstbox-container-subinputbox{
+    padding: 0rem 3rem 8rem;
+    justify-content: center;
+ align-items: center;
+    display: flex;
+}
+.blogfirstbox-container-subinputbox input{
+    width: 30%;
+    height: 3rem;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+.blogfirstbox-container-subinputbox button{
+    background-image: url(/assets/Rectangle\ 345@2x.svg);
+    height: 3rem;
+    padding: 10px;
+    width: auto;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.firstbox-container-subinputbox input{
+    width: 30%;
+    height: 3rem;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.firstbox-container-subinputbox button{
+    background-image: url(/assets/Rectangle\ 345@2x.svg);
+    height: 3rem;
+    padding: 9px 14px;
+    width: auto;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.howTitle{
+    color: #1171ca;
+    margin: 4rem 0.8rem 1rem;
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+}
+.card{
+overflow: hidden;
+border-radius: 10px;
+border: none;
+width:100%;
+height:100%;
+}
+.img1 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+} 
+.img2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/Popular\ Categories\ icon\ bg@2x.svg); 
+    background-repeat: no-repeat;
+    margin-top: -35px;
+}
+.img2 img{
+    justify-content: center;
+    padding: 13px !important;
+}
+.main-text{
+    text-align: center;
+    padding: 10px 0;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0 0 20px;
+    font-family: 'Poppins';
+}
+.main-text p{
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    color: rgb(90, 89, 89);
+    font-family: 'Poppins';
+}
+.lefttitle{
+    color: #1171ca;
+    margin: 0rem 0.8rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+}
+.hirebtn{
+    background-image: url(../../../public/assets/BecomeATaskerbutton.svg);
+    background-size: cover;
+    margin: 3rem 0rem 1rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 1px;
+    font-size: 1rem;
+    width: 12rem;
+    height: 3rem;
+    cursor: pointer;
+    outline: none;
+}
+.hirebtn:hover{
+    color: black;
+    border: 1px solid #1171ca;
+    background-image:none;
+    background-color: transparent;
+}
+.categoerytbn:active,.categoerytbn:hover,.active{
+    background-color:#1171ca;
+    margin: 3rem 0rem 2rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 2px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    outline: none;
+}
+.categoerytbn{
+    background-color: #fff;
+    margin: 3rem 0rem 2rem;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    padding: 2px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    outline: none;
+}
+.right-cardul{
+    padding-left: 0px;
+}
+.right-cardul li{
+   list-style: none;
+   color: #1171ca;
+   font-size: 1rem;
+   text-align: left;
+   margin: 5px;
+}
+
+.profilecardtitle{
+    color: #1171ca;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.profilereadmore{
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.profileimage{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50%;
+    margin-right: 8px;
+    object-fit: contain;
+}
+.name{
+    font-size: 0.8rem;
+    color: black;
+    margin-left: 5px;
+}
+.homeInspiration{
+    font-size: 0.8rem;
+    color: rgb(120, 120, 120);
+    margin: 9px 5px;
+}
+.subcribetitle{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 3rem 1rem 2rem;
+    font-family: 'Poppins';
+}
+.subcribepara{
+    font-size: 0.9rem;
+    color: white;
+    margin: 1.5rem 1rem 3rem;
+    font-family: 'Poppins';
+}
+.subcribe-btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 1rem 2rem;
+}
+.subcribe-btn-container button{
+    border: none;
+    border-radius: 30px;
+    width: 12rem;
+    padding: 1rem;
+}
+.btn2{
+ background-color: transparent;
+ border: 1px solid yellow !important;
+ color: white;
+}
+.subcribe-container-subinputbox{
+    display: flex;
+    margin: 0 1rem 0rem;
+}
+.subcribe-container-subinputbox input{
+    width: 70%;
+    height: 3rem;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+.subcribe-container-subinputbox button{
+    background-image: url(/assets/Rectangle\ 345@2x.svg);
+    height: 3rem;
+    padding: 11px;
+    width: auto;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+.subcribeinputpara{
+    margin: 0 1rem 0rem;
+    color: white;
+    font-family: 'Poppins';
+}
+.sprintimagemargin{
+    padding:7rem 1rem;
+}
+.blogfirstbox-container {
+    background-image: url(/assets/Header\ imageblog.jpg);
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+#leftimageconor{
+    position: relative;
+}
+.rect1{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-image: url('/assets/Why\ Local\ Tasker\ section\ element@2x.svg');
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .rect2{
+    width: 37rem;
+    height: 19rem;
+    border-radius: 10px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+  }
+  .rect3{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-image: url('/assets/Why\ Local\ Tasker\ section\ element@2x.svg');
+    border-radius: 10px;
+    position: absolute;
+    top: 7px;
+    right: 17px
+  }
+  .rect4{
+    width: 32rem;
+    height: 19rem;
+    border-radius: 10px;
+    position: absolute;
+    top:20px;
+    right: 16px;
+  }
+  .rect6{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-image: url('/assets/Why\ Local\ Tasker\ section\ element@2x.svg');
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .rect5 {
+    width: 37rem;
+    height: 19rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+@media screen and (max-width:858px){
+    .firstbox-container-subinputbox input{
+        width: 100%;
+        font-size: 12px;
+    }
+    .firstbox-container-subinputbox{
+        padding: 0rem 1rem 3rem;
+    }
+    .firstbox-container-subpara{
+        padding: 0rem 1rem 2rem;
+        font-size: 8px;
+    }
+    .firstbox-container-subtitle{
+        padding: 6rem 3rem 1rem;
+        font-size: 1rem;
+    }
+    .sprintimagemargin{
+        display: none;
+    }
+    .rect5 {
+        width: 17rem;
+        height: 22rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 0px;
+        left: 18px;
+    }
+    .rect6{
+        top: 9px;
+    }
+    .rect41{
+        width:17rem;
+    }
+}
+
+@media (max-width:480px) and (min-width:320px){
+    .main-containerbox{
+        padding-top: 1rem;
+       }
+    .name {
+        font-size: 0.65rem;
+    }
+    .vhgimage{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .howTitle,.lefttitle {
+        font-size: 1.7rem;
+        font-weight: 800;
+    }
+    ul {
+        padding-left: 0rem;
+    }
+    .ourstorytitle {
+        font-size: 1.5rem;
+        font-weight: 900;
+    } 
+    .blogfirstbox-container-subinputbox input {
+        width: 80%;
+    }
+    .homeInspiration {
+        font-size: 0.75rem;
+    }
+    .main-text p {
+        padding: 10px 22px;
+    }
+    .rect2 {
+        width: 17rem;
+        height: 12rem;
+        top: 18px;
+        left: 18px;
+    }
+    .rect3 {
+        right: 6px;
+        top: 9px;
+    }
+    .rect4 {
+        width: 17rem;
+        top: 0px;
+        right: 18px;
+    }
+    .right-cardul li {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .firstbox-container{
+        background-size:cover;
+      }
+}

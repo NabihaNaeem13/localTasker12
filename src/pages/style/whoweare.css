@@ -1,0 +1,568 @@
+.circle1{
+    width: 12rem;
+    border-radius: 50%;
+  }
+.circle2{
+      width: 18rem;
+      border-radius: 50%;
+      margin: 3rem 1rem;
+}
+.circle2 img,.circle1 img{
+  border-radius: 50%;
+}
+    .ourstorytitle{
+        font-size: 2.5rem;
+        font-weight: 900;
+        font-family: 'Poppins';
+     }
+     #Journey{
+      color: #1171ca;
+     }
+     .hirebtn{
+        background-image: url(../../../public/assets/BecomeATaskerbutton.svg);
+        background-size: cover;
+        margin: 3rem 0rem 1rem;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        padding: 1px;
+        font-size: 1rem;
+        width: 12rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+    .hirebtn:hover{
+      color: black;
+      border: 1px solid #1171ca;
+      background-image:none;
+      background-color: transparent;
+    }
+    .ourstorypara{
+     color:rgb(181, 182, 183);
+     margin-top: 3rem;
+     font-size: 1.05rem;
+     font-weight: 500;
+     font-family: 'Poppins';
+    }
+    h5{
+      font-weight: 600;
+      font-family: 'Poppins';
+    }
+    .valuesourparaafter{
+      margin-left: 3rem;
+      margin-right: 5rem;
+      text-align: center;
+      color:rgb(181, 182, 183);
+    }
+    .lefttitle{
+        color: #1171ca;
+        margin: 0rem 0rem 1rem;
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: 'Poppins';
+    }
+    .vhgimage{
+      width: 100%;
+      border-radius: 15px;
+    }
+    .vhgimage1{
+    width: 70%;
+    height: 30rem;
+    object-fit: contain;
+  }
+    .valueContainer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .valueCard{
+      background-image: url(/assets/Popular\ Categories\ unselected\ category@2x.svg);
+      background-size: cover;
+      border-radius: 10px;
+      width: 22rem;
+      height:22rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 40px;
+      margin-top:1rem;
+    }
+    .openingcard{
+      background-image: url(/assets/Rectangle\ 488@2x.svg);
+      background-size: cover;
+      border-radius: 10px;
+      width: 18rem;
+      height:18rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 40px;
+      margin-top:1rem;
+    }
+    .openingcard:hover{
+      background-image: url(/assets/Rectangle\ 490@2x.svg);
+    }
+    .openingcard span{
+      color: #aba9a9;
+    }
+    .openingcard p{
+      font-size: 16px;
+      padding-top: 8px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: 700;
+      color: #aba9a9;
+    }
+    .valueCard p {
+      font-size: 14px;
+      padding-top: 12px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .valueiconimage{
+      padding: 12px !important;
+      margin-left: -4px !important;
+    }
+    .answerbox{
+      display: flex;
+      justify-content: space-between;
+    }
+    .plus{
+      border: none;
+      border-radius: 50%;
+      text-align: center;
+      outline: none;
+      width: 2rem;
+      height: 2rem;
+    }
+    .answertitle{
+     color: #1171ca !important;
+     margin: 16px;
+    }
+    #parentrect{
+      position: relative;
+    }
+    .rect11{
+      width: 11rem;
+      height: 20rem;
+      background-color: #1171ca;
+      border-radius: 10px;
+      position: absolute;
+      top:5px;
+      right: 5px;
+    }
+    .rect21{
+      width: 33rem;
+      height: 18rem;
+      background-color: #f3f3f3;
+      border-radius: 10px;
+      position: absolute;
+      top:20px;
+      right: 20px;
+    }
+    .circlebecome1{
+      width: 14rem;
+      border-radius: 50%;
+      margin: -2rem 0.5rem;
+    }
+    .circlebecome2{
+      width: 20rem;
+      border-radius: 50%;
+      margin: 2rem 0rem;
+    }
+    .circlebecome3{
+      width: 14rem;
+      border-radius: 50%;
+      margin: -11rem -8rem;
+    }
+    .circlebecome3 img,.circlebecome2 img,.circlebecome1 img{
+      border-radius: 50%;
+    }
+    .becomestart{
+      background-image: url(../../../public/assets/BecomeATaskerbutton.svg);
+      background-size: cover;
+      margin: 0rem;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      padding: 1px;
+      font-size: 1rem;
+      width: 10rem;
+      height: 3rem;
+      cursor: pointer;
+    }
+    .yellowbgcircle{
+      width: 4rem;
+      height: 4rem;
+      background-image: url(/assets/How\ it\ Works\ icons\ bg@2x.svg); 
+     background-size: 90%;
+     background-repeat: no-repeat;
+     text-align: center;
+    }
+    .dropdown{
+        border: 2px solid #1171ca;
+        border-radius: 10px;
+        height: 2.5rem;
+        padding: 6px;
+    }
+    #formbecome{
+      background-color: #ffffff;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 10px;
+      padding: 12px;
+    }
+    #inforicon{
+      margin-top: -2rem;
+    }
+    .ownbossgrid{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap:1rem;
+    }
+    .ownbossCard{
+      background-image: url(/assets/Popular\ Categories\ unselected\ category@2x.svg);
+      background-size: cover;
+      border-radius: 10px;
+      width: 262px;
+      height: 262px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 40px;
+      margin-top:1rem;
+    }
+    .ownbossCard p{
+      font-size: 16px;
+      padding-top: 26px;
+      font-weight: lighter;
+      font-weight: 800;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .chatusCard {
+      background-image: url(/assets/Popular\ Categories\ unselected\ category@2x.svg);
+      background-size: cover;
+      border-radius: 10px;
+      width: 290px;
+      height: 290px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 40px;
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .chatusCard p{
+    font-size: 12px;
+    color: #aba9a9;
+    margin: 5px 50px;
+  }
+  .contactforminput{
+     height: 3rem;
+     margin: 1rem;
+     border: 2px solid #1171ca;
+     padding: 12px;
+     outline: none;
+     border-radius: 10px;
+     width: 70%;
+  }
+  .textarea{
+     height: 6rem;
+     border: 2px solid #1171ca;
+     margin: 1rem;
+     border-radius: 10px;
+     width: 70%;
+  }
+  #uploadbtn{
+    background-image: url(../../../public/assets/Upload\ files\ button@2x.svg);
+        background-size: cover;
+        margin: 1rem 0rem;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 1px;
+        font-size: 1rem;
+        width: 12rem;
+        height: 3rem;
+        cursor: pointer;
+  }
+  #lengthopening{
+    text-align: left;
+    color: #1171ca;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .jobpostpara{
+     font-size: 1rem;
+     color: #aba9a9;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    padding: 10px;
+  }
+  #uploadcv{
+    background:gray;
+    margin: 2rem 0rem 1rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 1px;
+    font-size: 1rem;
+    width:70%;
+    height: 3rem;
+  }
+  #x{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  .hiringstepcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .hiringstepCard {
+    background-image: url(/assets/Rectangle\ 488@2x.svg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 182px;
+    height: 182px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s;
+    margin-bottom: 40px;
+    margin-top:1rem;
+  }
+  .hiringstepCard p{
+    font-size: 14px;
+    padding-top: 12px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #cocimage{
+    margin-left: 13rem;
+  }
+  .termspara{
+     font-size: 14px;
+     color: #959393;
+     margin: 2rem 1rem;
+  }
+  .termsli{
+    color: #aba9a9;
+    font-size: 14px;
+  }
+  .termsli__active{
+    color: #1171ca;
+    font-weight: 800;
+  }
+  .highlights{
+    color:gray;
+    font-weight:800;
+  }
+
+  .becomeyellowcirclemargin {
+    margin: 7px 0px 2px -4px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+  .frequentmargin{
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .faqborderleft{
+    border-left:2px solid #1171ca;
+  }
+  .client{
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #1171ca;
+    color: #ffffff;
+    height: 3.5rem;
+    width: 10rem;
+    padding: 8px;
+    margin-top: 2rem;
+  }
+  .client:hover{
+    background-color: #ffffff;
+    color: #000;
+  }
+  .client1{
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    height: 3.5rem;
+    width: 10rem;
+    padding: 8px;
+    margin-top: 2rem;
+  }
+  .client1:hover{
+    color: #fff;
+    background-color: #1171ca;
+  }
+  .answertitlemargin{
+    margin:5px 10px;
+    color:#1171ca !important;
+  }
+  @media screen and (max-width:480px) and (min-width:320px){
+    .ourstorytitle,.lefttitle {
+      font-size: 1.5rem;
+      font-weight: 900;
+  }
+  .answertitlemargin{
+    margin:5px 7px !important;
+    color:#1171ca !important;
+    text-align: left;
+  }
+  .frequentmargin{
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .yellowbgcirclemobile{
+    width: 3.1rem !important;
+    height: 3.1rem !important;
+  }
+  .becomeyellowcirclemargin{
+    margin: 7px 1px 8px -4px;
+    width: 2rem;
+    height: 2rem;
+  }
+  .valuesourparaafter {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: 10px;
+    color: rgb(123 127 131);
+}
+.answertitle {
+  color: #1171ca !important;
+  font-size: revert;
+  margin: 16px 0px;
+}
+  .termspara{
+    font-size: 12px;
+    color: #959393;
+    margin: 2rem 1rem;
+ }  
+  .mobileimagewidth{
+   width:100%;
+   height: auto;
+   border-radius: 15px;
+  } 
+  .mobileimagewidth img{
+    border-radius: 15px !important;
+  }
+  .ourstorypara{
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgb(123 127 131);
+    text-align: justify;
+  }
+  .hirebtn{
+    margin-top: 1.5rem;
+  }
+  .valueContainer,.ownbossgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.valueCard {
+  background-image: url(/assets/Rectangle\ 488@2x.svg);
+  background-size: cover;
+  border-radius: 10px;
+  width: 9.5rem;
+  height: 9.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s;
+  margin-bottom: 40px;
+  margin-top: 1rem;
+}
+.valueCard  p{
+  padding: 1px 10px;
+  font-size: 7px;
+}
+.valueCard h5{
+  font-size: 8px;
+  font-weight: 700;
+  padding: 0px 5px;
+}
+.valueCard img{
+  width: 4rem;
+  height: 4rem;
+}
+.openingcard{
+  border-radius: 10px;
+  width: 9.5rem;
+  height:9.5rem;
+}
+.openingcard p {
+  font-size: 7px;
+  padding-top: 3px;
+}
+.openingcard h2{
+  font-weight: 700;
+  font-size: 16px;
+}
+#cocimage{
+  margin-left: 6rem;
+  width: 1rem;
+  height: 1rem;
+}
+.dropdown {
+  font-size: 14px;
+  width: 10rem;
+}
+
+.ownbossCard{
+ width: 9rem;
+ height:9rem;
+ background-image: url(/assets/Rectangle\ 488@2x.svg);
+}
+.ownbossCard p {
+  font-size: 10px;
+  padding-top: 1px;
+}
+.ownbossCard span {
+  font-size: 7px !important;
+  padding: 0.5rem !important;
+}
+#inforicon{
+ margin-top: -1rem;
+}
+  }
+  .ownbossCard span{
+    font-size: 12px;
+    padding: 1rem 1.5rem;
+  }

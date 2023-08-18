@@ -19,30 +19,30 @@ const data=[{
 },
 {
   id:2,
-  icon:"/assets/What's on your mind icon@1x.svg",
+  icon:"/assets/What'sonyourmindicon@1x.svg",
   title:"What's on your mind?",
   para:"We re all ears. Looking for home renovation help? Need a hand moving house? Or maybe a clean up? No worries, we got you!"
 },
 {
   id:3,
-  icon:"/assets/Find your tasker icon@2x.svg",
+  icon:"/assets/Findyourtaskericon@2x.svg",
   title:"Find your tasker",
   para:"Let s find them together! Just punch in your task category and postcode, and let our super smart filters show you the top pros in your area.."
 },{
   id:4,
-  icon:"/assets/Review and hire icon@2x.svg",
+  icon:"/assets/Reviewandhireicon@2x.svg",
   title:"Review and hire",
   para:"It s all about finding the right fit. Have a good read through profiles, check out ratings, and chat with taskers. We promise youll find your perfect match."
 },
 {
   id:5,
-  icon:"/assets/Talk Details icon@2x.svg",
+  icon:"/assets/TalkDetailsicon@2x.svg",
   title:"Talk Details",
   para:"Discuss all the nitty gritty with your tasker, from work scope and timelines to toolkits and payment. Trust us, clear chats lead to great results."
 },
 {
   id:6,
-  icon:"/assets/Task done. Time for payment@1x.svg",
+  icon:"/assets/Taskdone.Timeforpayment@1x.svg",
   title:"Task done. Time for payment",
   para:"And just like that, your task is complete! Simply pay your tasker using your preferred method and breathe a sigh of relief. You did it! And we couldnt be more proud."
 }]

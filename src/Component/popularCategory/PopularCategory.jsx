@@ -5,40 +5,40 @@ import Link from 'next/link';
 
 const data=[{
   id:1,
-  icon:"/assets/Art & Education@2x.svg",
+  icon:"/assets/Art&Education@2x.svg",
   title:"Art and Education"
 },
 {
   id:2,
-  icon:"/assets/Car Maintenance@2x.svg",
+  icon:"/assets/CarMaintenance@2x.svg",
   title:"Car Maintenance"
 },
 {
   id:3,
-  icon:"/assets/Business Services@2x.svg",
+  icon:"/assets/BusinessServices@2x.svg",
   title:"Business Services"
 },{
   id:4,
-  icon:"/assets/Handymade & Aseembly@2x.svg",
+  icon:"/assets/Handymade&Aseembly@2x.svg",
   title:"Handy & Assembly"
 },
 {
   id:5,
-  icon:"/assets/Home Services@2x.svg",
+  icon:"/assets/HomeServices@2x.svg",
   title:"Home Services"
 },
 {
   id:6,
-  icon:"/assets/Pet Care@2x.svg",
+  icon:"/assets/PetCare@2x.svg",
   title:"Pet Care"
 },{
   id:7,
-  icon:"/assets/Personal Care@2x.svg",
+  icon:"/assets/PersonalCare@2x.svg",
   title:"Personal Care"
 },
 {
   id:8,
-  icon:"/assets/Design Services@2x.svg",
+  icon:"/assets/DesignServices@2x.svg",
   title:"Design Services"
 },
 {

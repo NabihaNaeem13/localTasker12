@@ -102,10 +102,10 @@ export const SecondCardBlog = () => {
     />
             <h5 className='name'>{name}<p style={{color:'rgb(120, 120, 120)'}}>{date}</p></h5> 
             </div>
-            <div className='col d-flex'><Image src="/assets/Home Inspiration icon@2x.svg" alt="inspiration" width={12} height={10} className='mb-1'/> <p className='homeInspiration'>Home Inspiration</p></div>
+            <div className='col d-flex'><Image src="/assets/HomeInspirationicon@2x.svg" alt="inspiration" width={12} height={10} className='mb-1'/> <p className='homeInspiration'>Home Inspiration</p></div>
           </div>
            <h1 className='profilecardtitle'>{title}</h1>
-           <button className='profilereadmore' onClick={()=>router.push('/Blog')}>Read more <Image src="/assets/Read More icon@2x.svg" alt="readmore" width={20} height={20} className='mt-1' /></button>
+           <button className='profilereadmore' onClick={()=>router.push('/Blog')}>Read more <Image src="/assets/ReadMoreicon@2x.svg" alt="readmore" width={20} height={20} className='mt-1' /></button>
           </div>
           </div>
        )

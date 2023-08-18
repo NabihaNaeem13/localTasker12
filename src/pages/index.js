@@ -9,10 +9,21 @@ import { Subcribe } from '../Component/share/Subcribe'
 import { FirstBox } from '../Component/share/firstBox'
 import { MobileSubcribe } from '../Component/share/mobileSubcribe'
 import styles from './style/HomeStyle.module.css';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <main className={styles.main}>
+    <Head>
+        <title>
+          Local tasker
+        </title>
+        <meta
+          name="description"
+          content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
+          key="desc"
+        />
+      </Head>
     <FirstBox/>
     <HowWork/>
     <PopularCategory/>

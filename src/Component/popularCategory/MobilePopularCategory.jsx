@@ -70,8 +70,8 @@ export const MobilePopularCategory = () => {
 <div className={popularCategories.popularCategoriesItems}>
          {popularData && popularData.map((item)=>{
            return(
-             <Link href="https://localtasker.thedatech.com/login">
-             <div className={popularCategories.popularCategoriesCard} key={item.id}>
+             <Link href="https://localtasker.thedatech.com/login" key={item.id}>
+             <div className={popularCategories.popularCategoriesCard}>
              <Image src={item.icon} alt="" width={40} height={40}/>
               <p>{item.title}</p>
              </div>

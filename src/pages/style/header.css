@@ -84,10 +84,13 @@ a{
     .nav-mobile-ul{
         background-color: #1171ca;
         width: 50%;
-        position: absolute;
+        position: fixed;
         z-index: 100;
         display: block;
     }
+    .nav-mobile-ul-noe{
+        display: none !important;
+      }
     .nav-mobile-ul li{
         color: white;
         padding: 1rem;

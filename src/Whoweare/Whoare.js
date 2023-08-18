@@ -65,7 +65,7 @@ empowering diverse individuals, and nurturing talent." btnvalue="Hire a Tasker" 
 thriving community. We're all about making life easier across
 the UK, one task at a time. But it's not just about ticking off
 chores from your to-do list - it's about creating opportunities,
-empowering diverse individuals, and nurturing talent." btnvalue="Hire a Tasker" img="/assets/whoaremobile.JPG" link='https://localtasker.thedatech.com/register?type=2'/>
+empowering diverse individuals, and nurturing talent." btnvalue="Hire a Tasker" img="/bigcircleWho.png" link='https://localtasker.thedatech.com/register?type=2'/>
     </div>
     <div className='desktopboxdisplay'>
     <CardLeft/>

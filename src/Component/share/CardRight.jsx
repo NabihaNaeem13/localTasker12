@@ -45,8 +45,10 @@ Become a Tasker
      <div className='rect4'>
      <Image src='/Homepage/earnextracash.png' alt="earn" className='vhgimage' width={500} height={400} style={{borderRadius:"15px",height:"auto"}}/>
      </div>
+     </div>       
      </div>
-        <p className='mx-3' style={{marginTop:"17rem"}}>Find local jobs that fit your skills and schedule! Be
+     <div className='col-md-6'>
+     <p className='mx-3' style={{marginTop:"17rem"}}>Find local jobs that fit your skills and schedule! Be
 your own boss and enjoy the freedom that comes
 with it! Get the support you need from Local Tasker
 whenever you need it.</p>

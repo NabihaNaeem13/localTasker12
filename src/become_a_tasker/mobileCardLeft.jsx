@@ -7,9 +7,9 @@ export const MobileCardLeft = () => {
     <div className='container mobiledisplay text-center' style={{marginTop:"1rem"}}>
     <h1 className='lefttitle pt-1'>Make Money Your Way</h1>
     <div id="leftimageconor" className='mt-2 mb-2'>
-     <div className='rect6'></div>
-     <div className='rect5'>
-     <Image src="/makemoneyyourway.png" alt='leftimage' className='mobileimagewidth mt-4 mb-2' width={500} height={400} style={{borderRadius:"15px",height:"auto"}}/>
+     <div className='rect1'></div>
+     <div className='rect2'>
+     <Image src="/makemoneyyourway.png" alt='leftimage' className='mobileimagewidth' width={500} height={400} style={{borderRadius:"15px",height:"auto"}}/>
      </div>
      </div>
     <p className='ourstorypara mx-3' style={{marginTop:"16rem"}}>For just £19.99 a month, you can become a Local Tasker

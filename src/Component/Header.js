@@ -5,6 +5,11 @@ import { useRouter } from 'next/router'
 
 export const Header = () => {
     const [mobileMenu,setMobileMenu]=useState(false);
+    const [isOpen, setIsOpen] = useState(true);
+    
+  const closeSidebar = () => {
+    setIsOpen(false);
+  };
     const router=useRouter();
     const trogglebtn=()=>{
         if(mobileMenu===false){
@@ -36,7 +41,7 @@ export const Header = () => {
         <li><Link href='https://localtasker.thedatech.com/login'>Services</Link></li>
         <li><Link href='/Howitwork'><a>How it works</a></Link></li>
         <li><Link href='https://localtasker.thedatech.com/login-option'>Signup</Link>/<Link href='https://localtasker.thedatech.com/login-option'>Login</Link></li>
-       <button className='nav-mobile-btn mb-3' onClick={()=>router.push('/become_a_tasker')}>Become A Tasker</button>
+       <Link href='/become_a_tasker'><button className='nav-mobile-btn mb-3'>Become A Tasker</button></Link>
     </ul>}
     </>
   

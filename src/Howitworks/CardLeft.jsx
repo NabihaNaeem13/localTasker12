@@ -21,14 +21,18 @@ Read more
     </div>
     </div>
       <div className='container mobiledisplay text-center' style={{marginTop:"1rem"}}>
-      <h1 className='lefttitle pt-1'>Why Local Tasker?</h1>
-        <Image src="/assets/Group494.jpg" alt='mobilepic' className='mobileimagewidth mt-4 mb-2' width={400} height={400}/>
+      <div className='col-md-6 mx-2'>
+      <h1 className='lefttitle pt-1 mb-2'>Why Local Tasker?</h1>
+        <Image src="/assets/Group494.jpg" alt='mobilepic' className='mt-1 mb-2' width={300} height={400} style={{objectFit:"contain"}}/>
+      </div>
+      <div className='col-md-6'>
       <p className='ourstorypara mt-4'>We're not just a platform, but a thriving community.
 We're all about making life easier across the UK, one
 task at a time. But it's not just about ticking off chores
 from your to do list it's about creating opportunities,
 empowering diverse individuals, and nurturing talent.</p>
       <Link href='https://localtasker.thedatech.com/register?type=1'><button className='hirebtn'>Get Started</button></Link>
+      </div>
       </div>
     </>
   

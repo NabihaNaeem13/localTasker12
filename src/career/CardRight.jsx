@@ -39,10 +39,10 @@ and you get an option to have a slice of the pie.
       <div id="leftimageconor" className='mt-2 mb-2'>
      <div className='rect3'></div>
      <div className='rect4' style={{top:'20px'}}>
-     <Image src='/missiondriven.png' className='vhgimage' alt="earn" width={400} height={380} style={{borderRadius:"15px"}}/>
+     <Image src='/missiondriven.png' className='vhgimage' alt="earn" width={400} height={300} style={{borderRadius:"15px"}}/>
      </div>
      </div>
-      <p className='ourstorypara' style={{marginTop:"19rem"}}><strong>Community Impact:</strong> By joining Local Tasker, youll be a
+      <p className='ourstorypara' style={{marginTop:"17rem"}}><strong>Community Impact:</strong> By joining Local Tasker, youll be a
 part of a team that directly impacts the lives of people in
 your community.</p>
       <p className='ourstorypara mt-4'><strong>Growth Opportunities:</strong> We believe in the potential of our

@@ -82,12 +82,10 @@ export const SecondCardBlog = () => {
         <div className='col-md-4 mt-2' key={id}>
         <div className='card p-3'>
           <div className='img1'><Image
-      src="/Homepage/LTBLOGslider(1388 P 787 px).png"
+      src={icon}
       alt={name}
       width={400} 
       height={200}
-      blurDataURL={icon}
-      placeholder="blur" // Optional blur-up while loading
     /></div>
           <div className='row mt-3 mx-1' style={{borderBottom:"1px solid rgb(217 217 217)"}}>
             <div className='col d-flex mb-2'>

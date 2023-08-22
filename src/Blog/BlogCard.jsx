@@ -1,4 +1,3 @@
-"use client"
 import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -94,13 +93,13 @@ reliable help for their everyday needs.</p>
           <div className='img1'><img src={item.icon} alt='profile'/></div>
           <div className='row mt-3' style={{borderBottom:"1px solid rgb(217 217 217)"}}>
             <div className='col d-flex'>
-            <img src='/assets/Blog posted by image.jpg' alt='profile' className='profileimage'/>
+            <img src='/assets/Blogpostedbyimage.jpg' alt='profile' className='profileimage'/>
             <h5 className='name'>{item.name}<p style={{color:'rgb(120, 120, 120)'}}>{item.date}</p></h5> 
             </div>
-            <div className='col homeInspiration'><img src="/assets/Home Inspiration icon@2x.svg"/> Home Inspiration</div>
+            <div className='col homeInspiration'><img src="/assets/HomeInspirationicon@2x.svg"/> Home Inspiration</div>
           </div>
            <h1 className='profilecardtitle'>{item.title}</h1>
-           <button className='profilereadmore' onClick={()=>router.push('/Blog')}>Read more <img src="/assets/Read More icon@2x.svg"/></button>
+           <Link href={`/blogs/${item.id}`}><a className='profilereadmore'>Read more <img src="/assets/ReadMoreicon@2x.svg"/></a></Link>
           </div>
           </div>
        )

@@ -26,14 +26,15 @@
   .bluebgcircle{
     width: 4rem;
     height: 4rem;
-    background-image: url(/assets/Popular\ Categories\ icon\ bg@2x.svg); 
-   background-size: 90%;
+    background-color:#1171ca;
+   background-size: 100%;
    background-repeat: no-repeat;
    text-align: center;
+   border-radius: 50%;
   }
   .bluebgcircle img{
-    margin: 5px 0px !important;
-    margin-left: -1px !important;
+    margin: 6px 0px !important;
+    margin-left: 0px !important;
   }
   .popularCategoriesCard:hover {
     background-image: url(/assets/Popular\ Categories\ selected\ category@2x.svg);

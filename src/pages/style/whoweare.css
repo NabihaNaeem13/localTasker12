@@ -127,8 +127,8 @@
       padding-right: 50px;
     }
     .valueiconimage{
-      padding: 12px !important;
-      margin-left: -4px !important;
+      padding: 10px !important;
+      margin-left: -1px !important;
     }
     .answerbox{
       display: flex;
@@ -201,9 +201,10 @@
     .yellowbgcircle{
       width: 4rem;
       height: 4rem;
-      background-image: url(/assets/How\ it\ Works\ icons\ bg@2x.svg); 
-     background-size: 90%;
+     background-size: 100%;
      background-repeat: no-repeat;
+     background-color: #FDB633;
+     border-radius: 50%;
      text-align: center;
     }
     .dropdown{
@@ -211,6 +212,8 @@
         border-radius: 10px;
         height: 2.5rem;
         padding: 6px;
+        background-color: #fff !important;
+        outline: none;
     }
     #formbecome{
       background-color: #ffffff;
@@ -388,7 +391,7 @@
   }
 
   .becomeyellowcirclemargin {
-    margin: 7px 0px 2px -4px;
+    margin: 10px 0px 2px -2px;
     width: 2.5rem;
     height: 2.5rem;
 }

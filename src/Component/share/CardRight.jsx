@@ -20,7 +20,7 @@ export const CardRight = () => {
     </div>
      <div className='col-md-6'>
         <h1 className='lefttitle mt-2'>Looking To Earn Extra Cash?</h1>
-        <p className='mt-5 mx-1'>Find local jobs that fit your skills and schedule! Be
+        <p className='mt-5 mx-1' style={{color:"#000"}}>Find local jobs that fit your skills and schedule! Be
 your own boss and enjoy the freedom that comes
 with it! Get the support you need from Local Tasker
 whenever you need it.</p>
@@ -48,7 +48,7 @@ Become a Tasker
      </div>       
      </div>
      <div className='col-md-6'>
-     <p className='mx-3' style={{marginTop:"17rem"}}>Find local jobs that fit your skills and schedule! Be
+     <p className='mx-3' style={{marginTop:"17rem",color:"#000"}}>Find local jobs that fit your skills and schedule! Be
 your own boss and enjoy the freedom that comes
 with it! Get the support you need from Local Tasker
 whenever you need it.</p>

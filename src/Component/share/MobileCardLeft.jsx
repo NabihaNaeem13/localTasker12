@@ -16,8 +16,8 @@ export const MobileCardLeft = ({title,para1,para2,btnvalue,img,link}) => {
      <Image src={img} alt='leftimage' className='vhgimage' width={500} height={400} style={{borderRadius:"15px",height:"auto"}}/>
      </div>
      </div>
-        <p className="mx-3" style={{marginTop:"17rem"}}>{para1}</p>
-<p className='mt-4 mx-3'>{para2}</p>
+        <p className="mx-3" style={{marginTop:"17rem",color:"#000"}}>{para1}</p>
+<p className='mt-4 mx-3' style={{color:"#000"}}>{para2}</p>
 <div className='text-center'><button className='hirebtn' onClick={()=>router.push(`/${link}`)}>
 {btnvalue}
 </button></div>

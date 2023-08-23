@@ -9,7 +9,7 @@ export const Footer = () => {
       <footer className='footer-mainbox desktopboxdisplay'>
      <div className='footer-container'>
         <div>
-            <img src='assets/FooterLogo.svg' alt='logo.svg'/>
+            <img src='/assets/FooterLogo.svg' alt='logo.svg'/>
             <h5 className='download-title'>Download our app</h5>
             <div className='apple-container'><img src='assets/App store icon.svg'/><img  src='assets/Google play icon.svg'/></div>
              <ul className='social-media-container mb-3'><li><img src='assets/Youtube.svg'/></li><li><img src='assets/tiktok.svg'/></li><li><img src='assets/Instagram.svg'/></li><li><img src='assets/Twitter.svg'/></li><li><img src='assets/Facebook.svg'/></li></ul>
@@ -104,10 +104,10 @@ export const Footer = () => {
           </div>
             </div>
            </div>
-          <ul className='social-media-container mb-3'><li><img src='assets/Youtube.svg'/></li><li><img src='assets/tiktok.svg'/></li><li><img src='assets/Instagram.svg'/></li><li><img src='assets/Twitter.svg'/></li><li><img src='assets/Facebook.svg'/></li></ul>
+          <ul className='social-media-container mb-3'><li><img src='/assets/Youtube.svg'/></li><li><img src='/assets/tiktok.svg'/></li><li><img src='/assets/Instagram.svg'/></li><li><img src='/assets/Twitter.svg'/></li><li><img src='/assets/Facebook.svg'/></li></ul>
           <h5 className='download-title'>Download our app</h5>
-            <div className='apple-container'><img src='assets/App store icon.svg'/><img  src='assets/Google play icon.svg'/></div>
-            <img src='assets/FooterLogo.svg' alt='logo.svg' className='mt-5'/>
+            <div className='apple-container'><img src='/assets/App store icon.svg'/><img  src='/assets/Google play icon.svg'/></div>
+            <img src='/assets/FooterLogo.svg' alt='logo.svg' className='mt-5'/>
             <p className='copyrightpara'>&copy; Copyright 2023 Local Tasker. All rights reserved.</p>
       </div>
     </footer>

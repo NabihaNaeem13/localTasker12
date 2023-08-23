@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head';
-
+import { BlogDetail } from '../../BlogDetail/BlogDetail';
+import { Subcribe } from '../../Component/share/Subcribe';
+import { MobileSubcribe } from '../../Component/share/mobileSubcribe';
 
 const PostPage = () => {
   return (
@@ -14,7 +16,9 @@ const PostPage = () => {
           key="desc"
         />
       </Head>
-      <h1>Blog detail Page</h1>
+      <BlogDetail/>
+      <div className='desktopboxdisplay'><Subcribe/></div>
+      <MobileSubcribe/>
     </>
   )
 }
